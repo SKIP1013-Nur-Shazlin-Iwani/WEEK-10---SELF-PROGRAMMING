@@ -1,0 +1,30 @@
+Enter sales per line: 
+10
+20
+40
+60
+80
+70
+100
+90
+50
+z = 0 k = 0
+Value for sales: 10
+z = 0 k = 1
+Value for sales: 20
+z = 0 k = 2
+Value for sales: 40
+z = 1 k = 0
+Value for sales: 60
+z = 1 k = 1
+Value for sales: 80
+z = 1 k = 2
+Value for sales: 70
+z = 2 k = 0
+Value for sales: 100
+z = 2 k = 1
+Value for sales: 90
+z = 2 k = 2
+Value for sales: 50
+Sum: 520
+Average: 173
