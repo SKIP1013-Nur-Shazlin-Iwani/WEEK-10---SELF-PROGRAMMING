@@ -1,0 +1,23 @@
+package myArray;
+
+import java.util.Scanner;
+
+class Name {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner input = new Scanner(System.in);
+		 String[]name= new String[5];
+		
+		
+		  System.out.println("Enter five name:");
+		    for (int y=0; y<name.length; y++) {
+		    	name[y]=input.next();
+		    }
+		    
+		    for (int y=0; y<name.length; y++)
+		    	System.out.println("Name are: " + "nameList " + y + "= " + name[y]);
+
+	}
+
+}
