@@ -1,0 +1,52 @@
+package myArray;
+
+import java.util.Scanner;
+
+class ReverseOrder {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		 int[]item = new int[5];
+		 int sum=0;
+		 String[]name= new String[5];
+		 int[][]sales = new int[3][3];
+		 
+		    Scanner input = new Scanner(System.in);
+		    System.out.println("Enter five integers one number per line");
+		    for (int i=0; i<item.length; i++) {
+		    	item[i]=input.nextInt();
+		    	sum=sum+item[i];
+		    }
+		    
+		    for (int i=0; i<item.length; i++)
+		    	System.out.println("Items are: " + "index "+ i + "= " +item[i]);
+		    
+		    System.out.println("Sum: " + sum);
+		    System.out.println("Average: " + sum/item.length);
+		  
+		    System.out.println("Enter five name:");
+		    for (int y=0; y<name.length; y++) {
+		    	name[y]=input.next();
+		    }
+		    
+		    for (int y=0; y<name.length; y++)
+		    	System.out.println("Name are: " + "nameList " + y + "= " + name[y]);
+		    
+		    System.out.println("Enter sales per line: ");
+		    for (int z=0; z<sales.length; z++)
+		    	for (int k=0; k<sales.length; k++) {
+		    		sales[z][k]=input.nextInt();
+		    		sum=sum+sales[z][k];
+		    	}
+		    
+		    for (int z=0; z<sales.length; z++)
+		    	for (int k=0; k<sales.length; k++) {
+		    		System.out.println("z = " + z + " k = " + k);
+		    	System.out.println("Value for sales: " + sales[z][k]);
+		    	}
+		    
+		    System.out.println("Sum: " + sum);
+		    System.out.println("Average: " + sum/sales.length);
+	}
+
+}
