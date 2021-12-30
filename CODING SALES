@@ -1,0 +1,32 @@
+package myArray;
+
+import java.util.Scanner;
+
+class Sales {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner input = new Scanner(System.in);
+		 int sum=0;
+		 int[][]sales = new int[3][3];
+		
+		
+		 System.out.println("Enter sales per line: ");
+		    for (int z=0; z<sales.length; z++)
+		    	for (int k=0; k<sales.length; k++) {
+		    		sales[z][k]=input.nextInt();
+		    		sum=sum+sales[z][k];
+		    	}
+		    
+		    for (int z=0; z<sales.length; z++)
+		    	for (int k=0; k<sales.length; k++) {
+		    		System.out.println("z = " + z + " k = " + k);
+		    	System.out.println("Value for sales: " + sales[z][k]);
+		    	}
+		    
+		    System.out.println("Sum: " + sum);
+		    System.out.println("Average: " + sum/sales.length);
+
+	}
+
+}
