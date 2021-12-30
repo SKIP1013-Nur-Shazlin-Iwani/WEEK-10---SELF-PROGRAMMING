@@ -1,0 +1,13 @@
+Enter five integers one number per line
+2
+4
+6
+8
+10
+Items are: index 0= 2
+Items are: index 1= 4
+Items are: index 2= 6
+Items are: index 3= 8
+Items are: index 4= 10
+Sum: 30
+Average: 6
